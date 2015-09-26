@@ -13,103 +13,116 @@
   </head>
   
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-
-          <a class="brand" href="index.html">DOCQR</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li><a href="#team">Team</a></li>
-            </ul>
-          </div>
-          
-          <div class="pull-right text-right">
-            <ul class="nav pull-right">
-                
-              <li>
-                <a href="#">Sign In</a>
-              </li>
-              <li>
-                <a href="#">Sign Up</a>
-              </li>
-            
-    	    </ul>
-            </div>
-          <!--/.nav-collapse -->
-        </div>
+      
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">DOCQR</a>
       </div>
-    <a href="https://github.com/docqr"><img style="position: relative; top: 0; right: 0; border: 0; float:right;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+      
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Github</a></li>
+
+        </ul>
+        
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign In</a></li>
+        <li><a href="#">Sign Up</li>
+        
+      </ul>
+
+      </div>
     </div>
-    <div class="row-fluid tagline text-center pagination-centered">
-      <h1 style="padding-top:100px;">Web Viewer for Building Drawings via QR</h1>
-      <p>View building construction docs and sheets online by scanning a QR Code. &nbsp;<br>
+  </div>
+
+   <div class="row-fluid tagline text-center pagination-centered">
+      <h1 style="padding-top:100px;">View Building Drawings online via QR</h1>
+      <p>Visualize building construction docs and sheets online by scanning a QR Code. &nbsp;<br>
         This project was developed September 2015 at the AEC Technology Symposium + Hackathon in New York City.
       </p>
+      
       <div style="padding:25px">
-        <a class="btn btn-large pagination-centered" href="#" title="The original prize-winning entry" >Get Started</a>
-
+        <a class="btn btn-primary btn-lg pagination-centered" href="#" title="The original prize-winning entry" >Get Started</a>
      </div>
+     
     </div>
     <!-- /container -->
     <hr>
-    <div class="row-fluid text-center">
-      <div class="span4" style="display: block;">
-        <a href="#"><img src="https://s3.amazonaws.com/media.jetstrap.com/t5iFnkOSjKHBSrP9mKFj_revit.png" width="150px"></a>
-        <h3>Revit</h3>
-        <p>Publish & JSON Exporter</p>
+    
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <a href="#"><img src="images/drawing.png" width="150px" style="padding:5px"></a>
+        <h3>Building Drawing</h3>
+        <p>Publish from Revit</p>
+        <br>
       </div>
-      <div class="span4" style="display: block;">
-        <a href="#"><img src="https://s3.amazonaws.com/media.jetstrap.com/AIE3kA6YRiGxhHntQswI_rhino.jpg" width="150px"></a>
+      <div class="col-md-4 text-center">
+        <a href="#"><img src="images/qr.png" width="150px" style="padding:20px"></a>
         <h3>QR Code</h3>
-        <p>Image & URL</p>
+        <p>Take Photo or Go to URL</p>
+        <br>
       </div>
-      <div class="span4">
-        <a href="#"><img src="https://s3.amazonaws.com/media.jetstrap.com/t0iVBn9WSAqGX5cynEQQ_3dsMax.png" width="150px"></a>
+      <div class="col-md-4 text-center">
+        <a href="#"><img src="images/browser.png" width="150px" style="padding:21px"></a>
         <h3>Web Viewer</h3>
         <p>View Model & Sheets</p>
+        <br>
       </div>
-     
     </div>
     
     <hr>
 
-    <div class="row-fluid text-center">
-        <h3 style="padding-top:25px" class="text-center">
+    <div class="row-fluid text-center" style="padding-top:5px;padding-bottom:30px;">
+        <h3 style="padding-top:15px" class="text-center">
         Bring together the PHYSICAL and DIGITAL worlds
       </h3>
         <p>
           by quickly scanning a QR code and viewing the wider building context in your browser
         </p>
+        
+       <a class="btn btn-primary btn-lg pagination-centered" href="#" title="The original prize-winning entry" >Examples</a>
     </div>
     
-    <a name="team"></a>
     <hr>
-    <h3 style="padding-top:25px" class="text-center">
+    
+    <div id="team" style="padding-top:10px;padding-bottom:25px;">
+        
+    <h3 class="text-center">
       team
     </h3>
-    <div class="row-fluid text-center">
-      <div class="offset3 span6">
+
+    <div class="row text-center">
+      <div class="col-md-6 col-md-offset-3">
         <table class="table table-striped">
           <tbody>
              <tr><th>NAME</th><th>ORGANIZATION</th><th>PROJECT</th></tr>
-             <tr><td>Andres Munuz</td><td>AEC</td><td>Design</td></tr>
+             
              <tr><td>Charlie Portelli</td><td>KPF Architects</td><td>Revit</td></tr>
              <tr><td>Irmak Turan</td><td>MIT</td><td>Design</td></tr>
-             <tr><td>Jonatan Schumacher</td><td>Thornton Tomasetti</td><td>Viewer</td></tr>
-             <tr><td>Josh Wentz</td><td>Lucid</td><td>Viewer</td></tr>
+             <tr><td>Jonatan Schumacher</td><td>Thornton Tomasetti</td><td>Web Viewer</td></tr>
+             <tr><td>Josh Wentz</td><td>Lucid</td><td>Web Viewer</td></tr>
              <tr><td>Matt Mason</td><td>IMAGINiT Technologies</td><td>Revit</td></tr>
              <tr><td>Maximilian Thumtart</td><td>Thorton Tomasetti</td><td>Revit</td></tr>
-             <tr><td>Nick Mattise</td><td>University of Maryland</td><td>Viewer</td></tr>
+             <tr><td>Nick Mattise</td><td>University of Maryland</td><td>Web Viewer</td></tr>
+             <tr><td>Andres Munuz</td><td>AEC</td><td>Design</td></tr>
              
           </tbody>
         </table>
       </div>
     </div>
-    <div>
-      <p class="text-center">
-      </p>
+    
     </div>
+    
+    
     <hr>
     <div>
         <p class="text-center">
