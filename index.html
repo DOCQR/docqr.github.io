@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="View Building Construction Docs Online via QR Codes">
     
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/readable/bootstrap.min.css" rel="stylesheet" integrity="sha256-xZf1oKvAz2ou2qhEduvwW4dDmGlmHADVup7mEqdKU6k= sha512-go0HHuJkbEVqGsIW4i045yNp9n/jCC5Dywtr9MmZ41n6h+tBhCLod4AvtLxrFp489K2KppmGbufl0iKnhMwcOQ==" crossorigin="anonymous">
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/readable/bootstrap.min.css" rel="stylesheet" integrity="sha256-xZf1oKvAz2ou2qhEduvwW4dDmGlmHADVup7mEqdKU6k= sha512-go0HHuJkbEVqGsIW4i045yNp9n/jCC5Dywtr9MmZ41n6h+tBhCLod4AvtLxrFp489K2KppmGbufl0iKnhMwcOQ==" crossorigin="anonymous">-->
+    <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -19,11 +20,7 @@
     <div class="container">
       
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+
         <a class="navbar-brand" href="#">DOCQR</a>
       </div>
       
@@ -36,7 +33,7 @@
         
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Sign In</a></li>
-        <li><a href="#">Sign Up</li>
+        <li><a href="#">Sign Up</a></li>
         
       </ul>
 
@@ -89,12 +86,12 @@
           by quickly scanning a QR code and viewing the wider building context in your browser
         </p>
         
-       <a class="btn btn-primary btn-lg pagination-centered" href="#" title="The original prize-winning entry" >Examples</a>
+       <a class="btn btn-primary btn-lg pagination-centered" href="#" title="The original prize-winning entry" >Example Projects</a>
     </div>
     
     <hr>
     
-    <div id="team" style="padding-top:10px;padding-bottom:25px;">
+    <div id="team" style="padding-top: 25px; margin-top: -25px; padding-bottom:25px;">
         
     <h3 class="text-center">
       team
@@ -124,17 +121,20 @@
     
     
     <hr>
-    <div>
+    <div style="padding-top: 25px; padding-bottom:10px;">
+        
         <p class="text-center">
+          built at &nbsp;
+          <a href="http://aec-technology-hackathon-2015.devpost.com/" target="_blank">AEC Hackathon 2015</a>
+          &nbsp;| &nbsp;
           <a href="http://core.thorntontomasetti.com/event/aec-technology-symposium-2015/" target="_blank">AEC Technology Symposium 2015</a> 
-          &nbsp; | &nbsp;
-          <a href="http://aec-technology-hackathon-2015.devpost.com/" target="_blank">DevPost: AEC Technology Hackathon 2015</a>
+          
         </p>
 
         <p class="text-center">
           <a href="https://github.com/DOCQR/docqr.github.io/blob/master/LICENSE" target="_blank">Open Source MIT License</a>
           &nbsp; | &nbsp;
-          Special thanks to the open source software libraries & tools that made DOCQR possible:&nbsp;
+          Special thanks to the open source software that made DOCQR possible:&nbsp;
           <a href="https://github.com/mrdoob/three.js/blob/master/LICENSE" target="_blank">Three.js</a>
           &nbsp; | &nbsp;
           <a href="https://github.com/github" target="_blank">GitHub</a>
