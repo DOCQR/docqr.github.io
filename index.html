@@ -39,7 +39,7 @@
           <li class="dropdown" id="menuLogin">
               <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">Sign Up</a>
               <div class="dropdown-menu" style="padding:17px;">
-                <form class="form" id="formLogin"> 
+                <form class="form" id="formLogin" action="/login" method="post"> 
                   <div class="form-group" style="min-width:250px"><input type="name" class="form-control" id="name" name="name" placeholder="Name"></div>
                   <div class="form-group" style="min-width:250px"><input type="email" class="form-control" id="email" name="email" placeholder="Email"></div>
                   <div class="form-group" style="min-width:250px"><input type="password" class="form-control" id="password" placeholder="Password"></div>
@@ -49,10 +49,10 @@
               </div>
             </li>
           
-          <li class="dropdown" id="menuLogin">
+          <li class="dropdown" id="menuSignup">
               <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">Sign In</a>
               <div class="dropdown-menu" style="padding:17px;">
-                <form class="form" id="formLogin"> 
+                <form class="form" id="formSignup" action="/signup" method="post"> 
                   <div class="form-group" style="min-width:250px"><input type="email" class="form-control" id="email" name="email" placeholder="Email"></div>
                   <div class="form-group" style="min-width:250px"><input type="password" class="form-control" id="password" placeholder="Password"></div>
                   <button type="submit" class="btn btn-default btn-block">Sign In</button>
@@ -68,6 +68,10 @@
     </div>
 
    <div class="row-fluid tagline text-center pagination-centered">
+      <% if (message.length > 0) { %>
+        <div class="alert alert-danger"><%= message %></div>
+    <% } %>
+    
       <h1 style="padding-top:100px;">View Building Drawings online via QR</h1>
       <p>Visualize building construction docs and sheets online by scanning a QR Code. &nbsp;<br>
         This project was developed September 2015 at the AEC Technology Symposium + Hackathon in New York City.
