@@ -20,4 +20,4 @@ The web application allows users to create an account, and to create 'Projects'.
 The Revit plugin, which communicates with the web app, prompts the user to log in. Once logged in, one can select one of the user's projects, and publish 3D sections of all drawings in the Revit model. 
 In the same process, the Revit app also places QR codes next to all views on the sheets, and uploads the 3D models to the webapp, where they can be retreived at the URLs stored in the QR code.
 
-Revit Demo: https://youtu.be/cHrULgEkMXw
+[Video of Revit Demo] (https://youtu.be/cHrULgEkMXw)
