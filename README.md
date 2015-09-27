@@ -13,8 +13,8 @@ The project was proposed by Jonatan Schumacher [here](http://aec-technology-hack
 ![alt tag](https://raw.githubusercontent.com/DOCQR/web-viewer/master/files/documentation/JS_HackathonProposal.jpg)
 
 This tool currently consists of two parts: 
-1. node.js application
-2. Revit Plugin
+- node.js application
+- Revit Plugin
 
 The web application allows users to create an account, and to create 'Projects'. 
 The Revit plugin, which communicates with the web app, prompts the user to log in. Once logged in, one can select one of the user's projects, and publish 3D sections of all drawings in the Revit model. 
