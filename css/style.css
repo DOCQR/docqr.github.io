@@ -4565,7 +4565,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 .navbar-fixed-top .navbar-collapse,.navbar-fixed-bottom .navbar-collapse
 {
-	max-height: 340px;
+	/*max-height: 340px;*/
 }
 @media (max-device-width:480px) and (orientation:landscape)
 {
@@ -4892,6 +4892,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 {
 	background-color: #ffffff;
 	border-color: #dddddd;
+	
 }
 .navbar-default .navbar-brand
 {
@@ -4927,7 +4928,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 .navbar-default .navbar-toggle
 {
-	border-color: #dddddd;
+	border-color: white;
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus
 {
@@ -4935,7 +4936,8 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 .navbar-default .navbar-toggle .icon-bar
 {
-	background-color: #cccccc;
+	background-color: #4582ec;
+	/*background-color: #cccccc;*/
 }
 .navbar-default .navbar-collapse,.navbar-default .navbar-form
 {
