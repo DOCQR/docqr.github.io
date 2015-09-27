@@ -1,9 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
 .topbar{
 	    background-color: white;
 }
-
-
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 html
 {
 	font-family: sans-serif;
